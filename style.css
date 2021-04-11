@@ -177,7 +177,7 @@ section {
 .home {
   display: flex;
   justify-content: center;
-  background: url("./images/banner.jpg") no-repeat center center/cover;
+  background: url("./images/banner-min.jpg") no-repeat center center/cover;
   height: 100vh;
   color: #fff;
   min-height: 500px;
@@ -391,7 +391,7 @@ section {
 
 @supports (background-blend-mode: multiply) {
   .contact {
-    background: url("./images/contact-bg.jpg") no-repeat center,
+    background: url("./images/contact-bg-min.jpg") no-repeat center center,
       radial-gradient(#444, #111);
     background-blend-mode: multiply;
   }
@@ -502,7 +502,7 @@ section {
   font-size: 20px;
 }
 
-.contact .contact_info .info_links a:hover{
+.contact .contact_info .info_links a:hover {
   border-color: var(--color-primary);
   transform: translateY(-0.3rem);
 }
