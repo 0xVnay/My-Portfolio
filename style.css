@@ -444,7 +444,7 @@ section {
 }
 
 #project-wide .project-actions a:last-child .btn:hover {
-  background: #c80d5b;
+  background: var(--color-primary);
   opacity: 0.9;
 }
 
@@ -525,7 +525,7 @@ section {
 }
 
 .works .projects .project .project-actions a:last-child .btn:hover {
-  background: #c80d5b;
+  background: var(--color-primary);
   opacity: 0.9;
 }
 
